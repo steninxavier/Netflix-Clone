@@ -10,7 +10,8 @@ function App() {
     <div>
       <NavBar/>
       <Banner/>
-      <RowPost/>
+      <RowPost title='Popular on Netflix'/>
+      <RowPost title='Action'  isSmall />
     </div>
   );
 }
