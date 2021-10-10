@@ -27,7 +27,7 @@ input {
     width: 70px;
     height: 30px;
     align-content: center;
-    background-color: #af0606;
+    background-color: #970e0e;
     color: #110f0f;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -35,6 +35,11 @@ input {
     border: none;
     outline: 0;
   }
+  button:hover,
+button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
 
 .navbar{
     position: fixed;
