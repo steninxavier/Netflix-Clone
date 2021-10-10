@@ -17,7 +17,7 @@
     font-weight: 700;
     padding-bottom:.3rem;
 }
-.button{
+.buttonbanner{
     color: white;
     outline: none;
     border: none;
@@ -31,7 +31,7 @@
     cursor: pointer;
     margin: 1rem;   
 }
-.button:hover{
+.buttonbanner:hover{
     color: black;
     background-color: whitesmoke;
 }

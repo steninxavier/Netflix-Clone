@@ -22,7 +22,7 @@ input {
     color: #fff;
     padding: 6px 10px;
   }
-  button {
+  .searchbutton {
     cursor: pointer;
     width: 70px;
     height: 30px;
@@ -35,8 +35,8 @@ input {
     border: none;
     outline: 0;
   }
-  button:hover,
-button:focus {
+  .searchbutton:hover,
+.searchbutton:focus {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
 }

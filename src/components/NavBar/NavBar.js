@@ -8,7 +8,7 @@ export default function NavBar() {
             <input type="search" id="query" name="q"
              placeholder="Search movies"
              aria-label="Search through site content"/>
-             <button>Search</button>
+             <button className="searchbutton">Search</button>
              </form>
      
    

@@ -21,8 +21,8 @@ export default function Banner() {
             <div className="content">
                 <h1 className="title">{movie ? movie.original_name: ""}</h1>
                 <div className="bannerbuttons">
-                    <button className="button">Play</button>
-                    <button className="button">My List</button>
+                    <button className="buttonbanner">Play</button>
+                    <button className="buttonbanner">My List</button>
                 </div>
                 <div>
                     <h1  className="description">{movie ? movie.overview : ""}</h1>
