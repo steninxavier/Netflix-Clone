@@ -19,7 +19,7 @@ export default function Banner() {
         <div style={{backgroundImage:`url(${movie ? imageUrl+movie.backdrop_path:""})`}}
          className="banner">
             <div className="content">
-                <h1 className="title">{movie ? movie.original_name: ""}</h1>
+                <h1 className="title">{movie ? movie.original_title: ""}</h1>
                 <div className="bannerbuttons">
                     <button className="buttonbanner">Play</button>
                     <button className="buttonbanner">My List</button>
